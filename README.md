@@ -20,8 +20,9 @@
 </p>
 
 <p align="center">
-  <a href="#overview">Overview</a> &bull;
-  <a href="#compatibility">Compatibility</a> &bull;
+  <a href="#what-it-does">What it does</a> &bull;
+  <a href="#how-to-use">How to use</a> &bull;
+  <a href="#commands-and-permissions">Commands</a> &bull;
   <a href="#install">Install</a> &bull;
   <a href="https://github.com/TheNINJALLO/endstone-coin-plugin/releases">Releases</a>
 </p>
@@ -30,9 +31,22 @@
 
 A coin collection plugin for Endstone with GUI-based coin management and dynamic configuration. This release is aligned with Endstone 0.11.8 and Minecraft Bedrock Dedicated Server 1.26.40, and is distributed as a Python wheel for direct installation in an Endstone server.
 
-## Capabilities
+## What it does
 
--
+- Converts configured custom coin items into points on a scoreboard objective such as `Money`.
+- Deposits an entire held stack on right-click and confirms the credited value through sound and action-bar feedback.
+- Loads coin definitions from persistent JSON and exposes a small programmatic management API.
+
+## How to use
+
+1. Start once to create `coins.json`, then match each entry to the item identifiers supplied by your behavior/resource pack.
+2. Verify that the configured scoreboard objective exists.
+3. A player deposits coins by holding a configured coin stack and right-clicking the air.
+4. Edit `coins.json` and restart, or call the documented plugin API, when adding or changing coin types.
+
+## Commands and permissions
+
+This plugin registers no player commands. Deposits are item-driven: hold a configured coin and right-click the air. Administrators manage coin definitions in `coins.json` or through the Python API documented below.
 
 ## Compatibility
 
