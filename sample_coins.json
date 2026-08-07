@@ -1,0 +1,50 @@
+[
+  {
+    "currency_obj": "Money",
+    "display_name": "§6Wooden TK Coin §f$1",
+    "name": "ninjos:coin_wood",
+    "points": 1
+  },
+  {
+    "currency_obj": "Money",
+    "display_name": "§7Glass TK Coin §f$5",
+    "name": "ninjos:coin_glass",
+    "points": 5
+  },
+  {
+    "currency_obj": "Money",
+    "display_name": "§8Iron TK Coin §f$25",
+    "name": "ninjos:coin_iron",
+    "points": 25
+  },
+  {
+    "currency_obj": "Money",
+    "display_name": "§2Emerald TK Coin §f$100",
+    "name": "ninjos:coin_emerald",
+    "points": 100
+  },
+  {
+    "currency_obj": "Money",
+    "display_name": "§cRuby TK Coin §f$500",
+    "name": "ninjos:coin_ruby",
+    "points": 500
+  },
+  {
+    "currency_obj": "Money",
+    "display_name": "§eGolden TK Coin §f$1,000",
+    "name": "ninjos:coin_gold",
+    "points": 1000
+  },
+  {
+    "currency_obj": "Money",
+    "display_name": "§bDiamond TK Coin §f$10,000",
+    "name": "ninjos:coin_diamond",
+    "points": 10000
+  },
+  {
+    "currency_obj": "Money",
+    "display_name": "§8Netherite TK Coin §f$1,000,000",
+    "name": "ninjos:coin_netherite",
+    "points": 1000000
+  }
+]

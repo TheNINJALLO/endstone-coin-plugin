@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endstone-coin-plugin"
+version = "2.0.4"
+description = "A coin collection plugin for Endstone with GUI-based coin management and dynamic configuration"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+dependencies = [
+    "endstone>=0.11.8,<0.12"
+]
+
+[project.entry-points."endstone"]
+coin-plugin = "endstone_coin_plugin.coin_plugin:CoinPlugin"
