@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img alt="Endstone 0.11.8" src="https://img.shields.io/badge/Endstone-0.11.8-52b7a8?style=flat-square">
+  <img alt="Endstone 0.11.9" src="https://img.shields.io/badge/Endstone-0.11.9-52b7a8?style=flat-square">
   <img alt="API 0.11" src="https://img.shields.io/badge/API-0.11-63b8ff?style=flat-square">
-  <img alt="BDS 1.26.40" src="https://img.shields.io/badge/BDS-1.26.40-8b7dff?style=flat-square">
+  <img alt="BDS 1.26.44" src="https://img.shields.io/badge/BDS-1.26.44-8b7dff?style=flat-square">
   <img alt="Python >=3.10" src="https://img.shields.io/badge/Python-%3E=3.10-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
 </p>
 
@@ -29,7 +29,7 @@
 
 ## Overview
 
-A coin collection plugin for Endstone with GUI-based coin management and dynamic configuration. This release is aligned with Endstone 0.11.8 and Minecraft Bedrock Dedicated Server 1.26.40, and is distributed as a Python wheel for direct installation in an Endstone server.
+A coin collection plugin for Endstone with GUI-based coin management and dynamic configuration. This release is aligned with Endstone 0.11.9 and Minecraft Bedrock Dedicated Server 1.26.44, and is distributed as a Python wheel for direct installation in an Endstone server.
 
 ## What it does
 
@@ -52,24 +52,24 @@ This plugin registers no player commands. Deposits are item-driven: hold a confi
 
 | Component | Supported version |
 |---|---|
-| Endstone | `0.11.8` |
+| Endstone | `0.11.9` |
 | Endstone API | `0.11` |
-| Bedrock Dedicated Server | `1.26.40` |
+| Bedrock Dedicated Server | `1.26.44` |
 | Python | `>=3.10` |
-| Plugin release | `v2.0.4` |
+| Plugin release | `v2.0.5` |
 
 ## Install
 
 Download the wheel from the matching GitHub release:
 
 ```bash
-gh release download v2.0.4 --repo TheNINJALLO/endstone-coin-plugin --pattern "*.whl"
+gh release download v2.0.5 --repo TheNINJALLO/endstone-coin-plugin --pattern "*.whl"
 ```
 
 Copy the downloaded wheel into the server's `plugins/` directory, remove any older wheel for the same plugin, and restart Endstone.
 
 > [!IMPORTANT]
-> Use Endstone `0.11.8` with BDS `1.26.40`. Back up worlds and plugin data before upgrading a production server.
+> Use Endstone `0.11.9` with BDS `1.26.44`. Back up worlds and plugin data before upgrading a production server.
 
 ## Configuration and secrets
 
@@ -113,9 +113,9 @@ A plugin for Endstone (Bedrock Dedicated Server) that allows players to convert 
 
 ## Installation
 
-1. Ensure you have Endstone 0.11.8 or higher installed in your Python environment:
+1. Ensure you have Endstone 0.11.9 or higher installed in your Python environment:
 ```bash
-pip install endstone>=0.11.8,<0.12
+pip install endstone>=0.11.9,<0.12
 ```
 
 2. Create the plugin directory structure:
@@ -200,7 +200,7 @@ endstone-coin-plugin/
 ## Requirements
 
 - Python 3.9 or higher
-- Endstone 0.11.8 or higher
+- Endstone 0.11.9 or higher
 - Custom coin items in your resource pack
 
 ## Configuration

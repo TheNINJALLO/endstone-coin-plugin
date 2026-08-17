@@ -39,7 +39,7 @@ try:
     
 except ImportError as e:
     print(f"✗ Import error: {e}")
-    print("Make sure Endstone is installed: pip install endstone>=0.11.8,<0.12")
+    print("Make sure Endstone is installed: pip install endstone>=0.11.9,<0.12")
 except Exception as e:
     print(f"✗ Error: {e}")
     import traceback
